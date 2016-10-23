@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/*找工长详情页*/
+.foreman-detail.foreman-pageing-list {
+  padding-top: 0; }
+
+.foreman-detail.foreman-pageing-list ul li {
+  padding: 25px 0 20px 0; }
+
+.layer-sections {
+  margin-top: 20px; }
+
+.layer-sections .container.rebuild {
+  /*height:1000px;*/ }
+
+.fixed-nav {
+  width: 21%;
+  float: left;
+  margin-right: 1%;
+  border: 1px solid blue;
+  height: 100%; }
+
+.fixed-content {
+  width: 77%;
+  float: left;
+  margin-right: 1%;
+  height: 100%;
+  border: 1px solid grey; }
+
+.fixed-nav li {
+  height: 59px;
+  line-height: 59px;
+  padding-left: 20px;
+  border-bottom: 1px solid #d9d9d9; }
+
+.fixed-nav li a {
+  color: #333333;
+  padding-left: 40px;
+  display: block;
+  background: url("../images/icon-comment.png") no-repeat left center;
+  background-size: 19px 27px; }
+
+.fixed-nav span {
+  margin-left: 26px; }
+
+.fixed-nav li a.active {
+  color: #44c0ee;
+  background-image: url("../images/icon-comment-active.png"); }
+
+#customer-comment-section {
+  height: 500px; }
+
+.fixed-content .home-section {
+  color: #333333;
+  font-size: 18px;
+  line-height: 40px; }
+
+.fixed-foreman-info {
+  margin-top: 60px; }
+
+.fixed-foreman-info .media-body dd span {
+  width: 19px;
+  height: 19px;
+  margin: 0; }
+
+.fixed-foreman-info .media-body .star-info {
+  margin: 10px 0; }
+
+.home-section form {
+  background-color: #f3f3f3;
+  margin: 17px 0 31px 0; }
+
+.home-section form .form-group {
+  margin-bottom: 0 !important; }
+
+.home-section label {
+  font-size: 12px;
+  color: #999999;
+  padding-top: 0 !important; }
+
+.home-section .col-sm-10 {
+  font-size: 14px;
+  color: #333333; }
+
+.layer-sections .nav-tabs {
+  background-color: #f6f6f6;
+  border: 1px solid #d4d4d4; }
+
+.layer-sections .nav > li > a {
+  padding: 10px 31px;
+  border-radius: 0;
+  border-right: 1px solid #d4d4d4; }
+
+.layer-sections .nav-tabs > li.active > a, .layer-sections .nav-tabs > li.active > a:focus, .layer-sections .nav-tabs > li.active > a:hover {
+  border-color: #d4d4d4;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  color: #44c0ee; }
+
+.construct-section .row {
+  margin: 0;
+  overflow: hidden; }
+
+.construct-section .col-md-4 {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.construct-section .col-md-4 img {
+  width: 100px; }
+
+/*# sourceMappingURL=_select-foreman-detail.css.map */

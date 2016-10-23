@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        em { font-size:small; color:#CC0033; font-style:normal; }
+    </style>
+
+</head>
+<body>
+<script src="dist/_common/js/jquery.min.js"></script>
+<script language="JavaScript">
+    function XP_Highlight()
+    {
+        this.KeyWords = null;
+        // 格式化关键词
+        this.formatKeyword = function(content, keyword)
+        {
+            keyword = keyword.replace(/(^\s*)|(\s*$)/g, "");
+            if(keyword == '')
+                return content;
+            var reg = new RegExp('('+keyword+')', 'gi');
+            return content.replace(reg, '$1');
+        }
+        // 重绘内容区域
+        this.refreshContent = function(contentID)
+        {
+//
+            var content = document.getElementById(contentID).innerHTML;
+            for(var i = 0; i < keywords.length; i ++)
+            {
+                var strKey = keywords[i].toString();
+                var arrKey = strKey.split(',');
+                for(var j = 0; j < arrKey.length; j ++)
+                {
+                    var key = arrKey[j];
+                    content = this.formatKeyword(content, key);
+                }
+            }
+            document.getElementById(contentID).innerHTML = content;
+        }
+    }
+
+    // 关键词定义
+    var keywords =
+            [
+                ['阿里西西,alixixi.com,,Web开发,真好吃,哈哈,嘻嘻'],
+                ['头晕脑胀,疲乏气短,索然无味,,,折腾,源码下载,西西,站长,程序员,技术,开发'],
+                ['怎么了,啊,呀,喂']
+            ];
+    $(document).ready(function(){
+        var hl = new XP_Highlight();
+        hl.keywords = keywords; // 这里是关键词的定义
+        hl.refreshContent('res'); // 这里是要格式化内容的元素Id号
+    });
+</script>
+<div id="res"></div>
+</body>
+</html>

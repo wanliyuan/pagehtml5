@@ -1,0 +1,19 @@
+{
+    "name": "decoration-static",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server -p 8081 .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://git.coding.net/hywanliyuan/decoration-static.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "http-server": "^0.9.0"
+    }
+}
