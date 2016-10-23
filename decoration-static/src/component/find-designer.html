@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>账号登录</title>
+    <link rel="stylesheet" href="../_common/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../_common/css/common.css">
+    <link rel="stylesheet" href="../_common/css/style.css">
+    <link rel="stylesheet" href="../dist/_common/css/find-π.css">
+</head>
+
+<body>
+<div class="header">
+    <div class="navbar navbar-default">    <!--navbar-fixed-top-->
+        <div class="container rebuild">
+            <div class="navbar-header">
+                <img src="../_common/images/logo.png">
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../index.html">首页</a></li>
+                    <li><a href="find-π.html">发现派装</a></li>
+                    <li><a href="full-suit.html">精致的一致全包套装</a></li>
+                    <li><a href="select-foreman.html">找工长</a></li>
+                    <li  class="active"><a href="find-designer.html">找设计师</a></li>
+                    <li><a href="inspiration-img.html">灵感图片</a></li>
+                </ul>
+                <div class="pull-right login-register">
+                    <a href="#" class="login-btn" id="login-btn">登录/注册</a>
+                    <div class="alert-login" id="alert-login">
+                        <ul>
+                            <li class="icon-small1"><a>个人中心</a></li>
+                            <li class="icon-small2"><a>我的订单</a></li>
+                            <li class="icon-small3"><a>我的收藏</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="designer-banner">
+    <div class="container rebuild">
+        <div class="nav-wrap clearfix">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="#concept">概念</a></li>
+                <li><a href="design-reason">为什么要设计</a></li>
+                <li><a href="#service-illustration">服务说明</a></li>
+                <li><a href="design-pay">设计交付</a></li>
+                <li><a href="#QA"   class="active">QA</a></li>
+            </ul>
+        </div>
+        <div class="designer-banner-detail clearfix">
+            <div class="col-lg-8 banner-txt">
+                <h3>贴身设计、在线设计<small>2种设计方式，满足你的设计要求</small></h3>
+                <p>ta对美好色彩近乎疯狂的追求</p>
+                <p>ta对工程细节图纸认真苛求</p>
+                <p>ta反复推敲美的细节，打包了细心与关爱</p>
+                <small class="line-middle">原价：¥  180/m2</small>
+                <div>
+                    在线设计低至 <i>¥</i> <em>29</em><i>/m2</i>
+                </div>
+                <!--<img src="../_common/images/house.png" class="img-house">-->
+            </div>
+            <div class="col-lg-4">
+                <form  class="form-horizontal">
+                    <div class="layer"></div>
+                    <div class="form-group">
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control"  placeholder="您的称呼">
+                        </div>
+                        <div class="col-sm-5">
+                            <select  class="form-control">
+                                <option>先生</option>
+                                <option>女士</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control"  placeholder="手机号码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control"  placeholder="短信验证码">
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="button" class="form-control"  value="获取验证码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <button class="button">预约在线设计师</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="designer-main">
+    <div class="container rebuild">
+        <div class="designer-imgScroll">
+            <h3>选择贴身设计<small class="line-middle"></small></h3>
+            <p class="img-title">与100余位设计师直接沟通</p>
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <ul class="clearfix">
+                            <li>
+                                <div class="show-img-wrap">
+                                    <div class="layer"></div>
+                                    <div class="show-img">
+                                        <img src="images/designer01.jpg">
+                                    </div>
+                                    <div class="head-pic">
+                                        <img src="images/head-pic.png" class="img-circle">
+                                        <p><span>认证设计师</span></p>
+                                    </div>
+                                </div>
+                                <div class="show-img-tb">
+                                    <h4>擅长风格</h4>
+                                    <p>现代，地中海。简欧，美式</p>
+                                    <div class="dl-list clearfix">
+                                        <dl>
+                                            <dt>量房</dt>
+                                            <dd>100元</dd>
+                                        </dl>
+                                        <dl class="active">
+                                            <dt>设计</dt>
+                                            <dd>
+                                                <span>55元/㎡</span>
+                                                <span class="line-middle">100元/㎡</span>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>主材协助</dt>
+                                            <dd>100元/㎡</dd>
+                                        </dl>
+                                        <dl class="last">
+                                            <dt>软装陪购</dt>
+                                            <dd>100元/㎡</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="show-img-btn">
+                                    <button class="button">立即预约</button>
+                                    <p>78位业主找TA设计</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="show-img-wrap">
+                                    <div class="layer"></div>
+                                    <div class="show-img">
+                                        <img src="images/designer01.jpg">
+                                    </div>
+                                    <div class="head-pic">
+                                        <img src="images/head-pic.png" class="img-circle">
+                                        <p><span>认证设计师</span></p>
+                                    </div>
+                                </div>
+                                <div class="show-img-tb">
+                                    <h4>擅长风格</h4>
+                                    <p>现代，地中海。简欧，美式</p>
+                                    <div class="dl-list clearfix">
+                                        <dl>
+                                            <dt>量房</dt>
+                                            <dd>100元</dd>
+                                        </dl>
+                                        <dl class="active">
+                                            <dt>设计</dt>
+                                            <dd>
+                                                <span>55元/㎡</span>
+                                                <span class="line-middle">100元/㎡</span>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>主材协助</dt>
+                                            <dd>100元/㎡</dd>
+                                        </dl>
+                                        <dl class="last">
+                                            <dt>软装陪购</dt>
+                                            <dd>100元/㎡</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="show-img-btn">
+                                    <button class="button">立即预约</button>
+                                    <p>78位业主找TA设计</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="show-img-wrap">
+                                    <div class="layer"></div>
+                                    <div class="show-img">
+                                        <img src="images/designer01.jpg">
+                                    </div>
+                                    <div class="head-pic">
+                                        <img src="images/head-pic.png" class="img-circle">
+                                        <p><span>认证设计师</span></p>
+                                    </div>
+                                </div>
+                                <div class="show-img-tb">
+                                    <h4>擅长风格</h4>
+                                    <p>现代，地中海。简欧，美式</p>
+                                    <div class="dl-list clearfix">
+                                        <dl>
+                                            <dt>量房</dt>
+                                            <dd>100元</dd>
+                                        </dl>
+                                        <dl class="active">
+                                            <dt>设计</dt>
+                                            <dd>
+                                                <span>55元/㎡</span>
+                                                <span class="line-middle">100元/㎡</span>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>主材协助</dt>
+                                            <dd>100元/㎡</dd>
+                                        </dl>
+                                        <dl class="last">
+                                            <dt>软装陪购</dt>
+                                            <dd>100元/㎡</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="show-img-btn">
+                                    <button class="button">立即预约</button>
+                                    <p>78位业主找TA设计</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="show-img-wrap">
+                                    <div class="layer"></div>
+                                    <div class="show-img">
+                                        <img src="images/designer01.jpg">
+                                    </div>
+                                    <div class="head-pic">
+                                        <img src="images/head-pic.png" class="img-circle">
+                                        <p><span>认证设计师</span></p>
+                                    </div>
+                                </div>
+                                <div class="show-img-tb">
+                                    <h4>擅长风格</h4>
+                                    <p>现代，地中海。简欧，美式</p>
+                                    <div class="dl-list clearfix">
+                                        <dl>
+                                            <dt>量房</dt>
+                                            <dd>100元</dd>
+                                        </dl>
+                                        <dl class="active">
+                                            <dt>设计</dt>
+                                            <dd>
+                                                <span>55元/㎡</span>
+                                                <span class="line-middle">100元/㎡</span>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>主材协助</dt>
+                                            <dd>100元/㎡</dd>
+                                        </dl>
+                                        <dl class="last">
+                                            <dt>软装陪购</dt>
+                                            <dd>100元/㎡</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="show-img-btn">
+                                    <button class="button">立即预约</button>
+                                    <p>78位业主找TA设计</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <ul class="clearfix">
+                            <li style="height:458px;"></li>
+                            <li style="height:458px;"></li>
+                            <li style="height:458px;"></li>
+                            <li style="height:458px;"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carousel-button">
+                    <a class="" href="#myCarousel" data-slide="prev">
+                        <img src="../_common/images/arrow-primary-left.png">
+                    </a>
+                    <span>换一组看看</span>
+                    <a class="" href="#myCarousel" data-slide="next">
+                        <img src="../_common/images/arrow-primary-right.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="designer-todo">
+            <h3>如何与贴身设计师合作</h3>
+            <p class="abstract">派装提供标准的合作流程，通过担保交易，房主更有保障！</p>
+            <ul class="clearfix">
+                <li>
+                    <div class="todo-tips clearfix">
+                        <span class="serial-num">1</span>
+                        <span class="serial-content">前期沟通阶段</span>
+                    </div>
+                    <div class="todo-list">
+                        <p>免费电话咨询</p>
+                        <p>免费户型建议</p>
+                        <p>上门量房，免费或支付不等定金</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="todo-tips clearfix">
+                        <span class="serial-num">2</span>
+                        <span class="serial-content">平面方案阶段</span>
+                    </div>
+                    <div class="todo-list">
+                        <p>方案包含设计说明、平面</p>
+                        <p>布置图、手绘图（可选）</p>
+                        <p>3D效果图 （可选）</p>
+                        <p>可提供多套方案选择</p>
+                        <p>修改到满意为止</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="todo-tips clearfix">
+                        <span class="serial-num">3</span>
+                        <span class="serial-content">图纸深化阶段</span>
+                    </div>
+                    <div class="todo-list">
+                        <p>施工图包含设计说明、原始尺寸图、平面布置图、顶面布置图、地面铺设图、墙面拆装图、水路布置图等10多种。
+                        <p>包含3D效果图若干张（可选）</p>
+                        <p>修改到满意为止</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="todo-tips clearfix">
+                        <span class="serial-num">4</span>
+                        <span class="serial-content">施工跟踪阶段</span>
+                    </div>
+                    <div class="todo-list">
+                        <p>开工现场交底</p>
+                        <p>施工过程现场跟进</p>
+                        <p>陪同购买主材</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="todo-tips clearfix">
+                        <span class="serial-num">5</span>
+                        <span class="serial-content">软装搭配阶段</span>
+                    </div>
+                    <div class="todo-list">
+                        <p>软装搭配方案</p>
+                        <p>陪同购买家具</p>
+                        <p>陪同购买配饰</p>
+                        <p>进场摆件（可选）</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container rebuild">
+    <div class="why-to-design">
+        <h3>为什么一定需要设计?<small class="line-middle"></small></h3>
+        <div class="row designer-img-txt">
+            <div class="col-lg-5">
+                <h2>施工必要,还省钱</h2>
+                <div class="designer-check">
+                <p class="icon-check">工程量明确，施工井然有序，避免中途返工</p>
+                <p class="icon-check">预算准确避免增项</p>
+                <p class="icon-check">沟通更有效，施工图白纸黑字不易误解</p>
+                </div>
+                <p>居住舒适，规划巧妙</p>
+                <p>好的设计让房主住得舒适、用的方便，而普通房主掌握的设计技巧单一，不容易巧妙和美观的利用每一寸空间</p>
+            </div>
+            <div class="col-lg-7">
+                <img src="../_common/images/why-to-designer01.png">
+            </div>
+        </div>
+        <div class="row designer-img-txt">
+            <div class="col-lg-6">
+                <img src="../_common/images/why-to-designer02.png">
+            </div>
+            <div class="col-lg-5">
+                <h2>深入了解你的需求</h2>
+                <h2>只为成就你的喜好</h2>
+                <div class="mt40">
+                    <p>或许你曾经看到某个漂亮的家装照片而惊喜难忘，想把这样的设计也搬回家。</p>
+                    <p>但几乎都会遇到以下的问题：</p>
+                </div>
+                <p class="line-middle color-blue text-right">拿照片给师傅看，师傅不确定工艺和材料</p>
+                <p class="line-middle color-green">勉强做出来了，但是总觉得不像</p>
+                <p class="line-middle color-red text-right">不知道如何协调硬装和软装的色彩搭配</p>
+                <p class="color3 mt40">现在开始,忘记困难,让设计师帮你解决!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="designer-change-section">
+    <div class="container rebuild">
+        <h3>据说，免费设计都是陷阱</h3>
+        <p class="color4">天下没有免费午餐，更何况是免费的设计？</p>
+        <p class="color4">不但设计结果无法保证更制约了你的选择权</p>
+        <p class="color-red mt60">房主和免费设计师都曾经历过以下对话</p>
+        <div class="wechat-list">
+            <img src="../_common/images/wechat01.jpg">
+            <img src="../_common/images/wechat02.jpg">
+            <img src="../_common/images/wechat03.jpg">
+        </div>
+        <h4 class="with-line">你本可以自由选择</h4>
+        <div class="change-section-buttons">
+            <button class="button">专业的设计</button>
+            <span>+</span>
+            <button class="button">实惠的施工队</button>
+        </div>
+        <p><label>比传统装修公司装修费节省高达</label></p>
+        <p><em>30%</em></p>
+    </div>
+</div>
+<div class="change-imgtext">
+    <div class="container rebuild">
+        <h3>选择在线设计<small class="line-middle"></small></h3>
+        <p class="img-title">派装在线设计中心 提供大众能支付的一线设计</p>
+        <div class="imgtext-section clearfix">
+            <div class="col-lg-7">
+                <h4>派装在线设计中心</h4>
+                <h4>提供大众能支付的一线设计</h4>
+                <p class="mt25">
+                    集中优秀青年设计师、新锐设计力量，以更高效的在线输出能力，提供大众能消费得起的设计服务。全面提升设计服务内容和质量，却降低收费。大家不必因为设计费望而却步，无论你身处何处，都能享受来自一线城市优秀设计师的服务。
+                </p>
+            </div>
+            <div class="col-lg-5">
+
+            </div>
+        </div>
+        <div class="imgtext-section clearfix">
+            <div class="text-center">
+                <h4>明确的设计流程</h4>
+                <h4>完整的服务与设计交付物</h4>
+                <p class="title">整个过程有装修顾问一对一为您服务，不必担心任何苦恼</p>
+            </div>
+            <div class="row mt60">
+                <div class="col-lg-6">
+                    <p class="color3">准备阶段</p>
+                    <h4 class="mt25">提交需求资料，</h4>
+                    <h4>匹配适合的设计</h4>
+                    <p class="mt25">你需要提供户型图、现场照片和视频、喜欢的装修风格图、装修需求问卷，装修顾问将根据资料为你推荐最适合的设计师。</p>
+                    <p class="mt40">在此之前装修顾问会给你一份任务表，任务清单详细的介绍了每一份资料的提供标准。因此你不必担心，只要一步一步跟随指南完成任务即可。</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../_common/images/change-section01.png" class="mt40">
+                </div>
+            </div>
+            <div class="row mt130">
+                <div class="col-lg-6">
+                    <img src="../_common/images/change-section02.png">
+                </div>
+                <div class="col-lg-6">
+                    <p class="color3">第一阶段</p>
+                    <h4 class="mt25">明确空间动线与功能</h4>
+                    <h4>推敲细节到满意</h4>
+                    <p class="mt40">设计师理解完需求资料后，第一时间与你在线（微信、QQ、电话均可）沟通细节，确定你的所想所求。从设计伊始，就进入实时修改阶段，先确定全屋动线和各空间功能结构，然后每个房间、每个墙面/顶面/地面逐个确认设计，一直到满意为
+                        止。</p>
+                </div>
+            </div>
+            <div class="row mt60">
+                <div class="col-lg-6">
+                    <p class="color3">第一阶段</p>
+                    <h4 class="mt25">效果图来啦,</h4>
+                    <h4>每个房间全都有</h4>
+                    <p class="mt40">传统的设计公司考虑到成本，往往只提供客餐厅和某间卧室的效果图，甚至有的设计师公司完全不提供效果图。</p>
+                    <p class="mt25">美丽家设计中心十分理解大家的心情，毕竟语言和视觉的转化在每个人身上是不一样的，将立面造型图转化为效果图，方便你直观理解设计和了解色彩搭配，也方便施工队进行参考，因此每个房间都必不可少。这样才能完整的指导大家实现一个美丽的家！</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../_common/images/change-section03.png" class="mt25">
+                </div>
+            </div>
+            <div class="row mt100">
+                <div class="col-lg-6">
+                    <img src="../_common/images/change-section04.png" class="mt60">
+                </div>
+                <div class="col-lg-6">
+                    <p class="color3">第三阶段</p>
+                    <h4 class="mt25">细化所有施工图,</h4>
+                    <h4>施工报价可以确定了</h4>
+                    <p class="mt40">这个阶段完成全套施工图，根据户型面积不同，至少20张以上，此时可以开始询问施工报价了。</p>
+                    <p class="mt40">全套施工图包括平面布置图、墙面拆改图、地面材质图、水电路图、开关插座布置图、冷热水管示意图、家具定位图、吊顶图、灯位图、立面索引图、各房间立面图、沙发背景墙立面图、电视背景墙立面图、玄关立面图、主卧床头背景墙立面图、酒柜立面图、儿童房立面图等。</p>
+                </div>
+            </div>
+            <div class="row mt100">
+                <div class="col-lg-6">
+                    <p class="color3">超值赠送服务</p>
+                    <h4 class="mt25">主材、软装选配指南</h4>
+                    <h4>打造最具性价比的效果</h4>
+                    <p class="mt40">根据你的预算，设计师为你推荐最合适的主材和家具。虽然在之前的沟通过程中一直都有涉及搭配问题，但是在这个阶段，设计师将会把完整的主材和家具选购清单一条一条的落实到搭配指南。</p>
+                    <p class="mt40">该指南包含选材的名称、款式、数量和搭配方法，家具类的产品还包含网购地址方便对比选择。你也可以在后续自行选购过程中随时咨询设计师。</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../_common/images/change-section05.png" class="mt60">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="get-result-list">
+    <h4>最终,你将获得这些</h4>
+    <div class="container rebuild">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="../_common/images/get-result01.png" class="img-circle">
+                <p>平面布置方案</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="../_common/images/get-result02.png" class="img-circle">
+                <p>全套效果图</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="../_common/images/get-result03.png" class="img-circle">
+                <p>完整立面造型图</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="../_common/images/get-result04.png" class="img-circle">
+                <p>详细施工图</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="../_common/images/get-result05.png" class="img-circle">
+                <p>主材、软装搭配&清单</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="../_common/images/get-result06.png" class="img-circle">
+                <p>手机在线管理工具</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fullset-drawing">
+    <div class="container rebuild">
+        <div class="col-lg-6">
+            <img src="../_common/images/drawing.png">
+        </div>
+        <div class="col-lg-6">
+            <h3>全套图纸，快递给你</h3>
+            <p>派装在线设计中心早已考虑到了这点：纸质资料是最易阅读的。为了方便你的查阅，完成所有设计后，派装第一时间为你寄出整套设计资料。</p>
+        </div>
+        <div class="clearfix"></div>
+        <div class="QA-section">
+            <h4>或许你还有这些疑问</h4>
+            <div class="QA">
+                <p class="question">
+                    问：我家建筑面积90平米，设计费是多少？
+                </p>
+                <p class="answer">
+                    答：派装在线设计服务目前为￥29/平米，按照房产证建筑面积来计算，小于70平米以70平米计算，大于70平米的以实际建筑面积计算。如果你没有房产证
+                    和建筑面积证明，则根据实际测量的（套内面积x1.25）得到建筑面积。因此你的设计费用为90*29=2610元。
+                </p>
+            </div>
+            <div class="QA">
+                <p class="question">
+                    问：我还是希望设计师能来工地现场，陪我一起去选购主材和家具，可以吗？
+                </p>
+                <p class="answer">
+                    答：派装推出￥29/平米超值设计，正是因为减少了设计师路上来回时间，从而赢得更多时间完成设计本职工作，让设计师的高效帮助更多人，同时也让天涯海
+                    的小伙伴都能体验到一线城市的设计标准。如果你需要本地施工跟踪和产品陪购，请告知装修顾问安排同城设计师为你服务，但因为增加了工作量，要根
+                    据工作量额外收取一定费用，具体请咨询派装装修顾问。
+                </p>
+            </div>
+            <nav class="text-center">
+                <ul class="pagination">
+                    <li><a href="#">«</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">»</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="navbar navbar-inverse">    <!---navbar-fixed-bottom-->
+        <div class="container rebuild">
+            <div class="row show-grid">
+                <div class="col-lg-8">
+                    <div class="footer—logo pull-left">
+                        <img src="../_common/images/footer-logo.png">
+                    </div>
+                    <div class="footer-tips pull-left">
+                        <p class="first-tips"><a>了解我们</a><a>加入我们</a><a class="last">样板间用户招募</a></p>
+                        <p class="second-tips"><i>北京派装科技有限公司</i><label>地址：</label><span>北京市北苑东路中国铁建广场Ｄ座５层</span></p>
+                        <p class="third-tips"><label>电话：</label><span>010-53565632</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="../_common/images/info.png" class="info-qrcode">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../_common/scripts/jquery.js"></script>
+<script src="../_common/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+<script src="../_common/scripts/common.js"></script>
+</body>
+
+</html>
