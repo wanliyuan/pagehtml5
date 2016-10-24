@@ -45,6 +45,7 @@ body{
   top: -.15rem;
   right:-.15rem;
   margin-right: 1rem;
+  display:inline-block;
 }
 
 header{
