@@ -305,6 +305,7 @@
   line-height: 1.6rem;
   color: #3e3a39;
   font-size:.8rem;
+  display:block;
 }
 .btn-recept{
   width:60%;
