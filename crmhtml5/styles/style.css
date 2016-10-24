@@ -541,10 +541,11 @@
 .form-password-group{
   width:100%;
 }
-.form-password-group .control-label{
+.form-password-group span{
   color: #3e3a39;
-  font-size:.8rem;
-  line-height: 2rem;
+  font-size:.7rem;
+  line-height:2rem;
+  display:inline-block;
 }
 .form-password-group .form-control{
   background-color:#FFFFFF;
