@@ -299,12 +299,12 @@
 .avatar-iphone{
   margin-top:.5rem;
   color: #FFFFFF;
-  font-size:.7rem;
+  font-size:.8rem;
 }
 .person-section p{
   line-height: 1.6rem;
   color: #3e3a39;
-  font-size:.7rem;
+  font-size:.8rem;
 }
 .btn-recept{
   width:60%;
@@ -543,7 +543,7 @@
 }
 .form-password-group .control-label{
   color: #3e3a39;
-  font-size:.7rem;
+  font-size:.8rem;
   line-height: 2rem;
 }
 .form-password-group .form-control{
