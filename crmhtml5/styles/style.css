@@ -281,7 +281,7 @@
   width:100%;
   height:39%;
   text-align:center;
-  padding-top:13%;
+  padding-top:11%;
 }
 .big-avatar{
   margin-top:2rem;
@@ -301,14 +301,13 @@
   color: #FFFFFF;
   font-size:.8rem;
 }
-/*.person-section>p,*/
-.person-section>div span{
-  line-height: 1.6rem;
+.person-section  span{
+  line-height: 1.5rem;
   color: #3e3a39;
-  font-size:.8rem;
+  font-size:.7rem;
   display:block;
-  color:red;
 }
+
 .btn-recept{
   width:60%;
   margin:0 auto;
