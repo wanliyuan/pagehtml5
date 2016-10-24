@@ -301,11 +301,13 @@
   color: #FFFFFF;
   font-size:.8rem;
 }
-.person-section p{
+/*.person-section>p,*/
+.person-section>div span{
   line-height: 1.6rem;
   color: #3e3a39;
   font-size:.8rem;
   display:block;
+  color:red;
 }
 .btn-recept{
   width:60%;
