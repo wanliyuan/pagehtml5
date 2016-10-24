@@ -301,11 +301,13 @@
   color: #FFFFFF;
   font-size:.8rem;
 }
-.person-section  span{
+.person-section  span,.person-section i{
+  font-family:"Microsoft YaHei";
+  font-style: normal;
   line-height: 1.5rem;
   color: #3e3a39;
   font-size:.7rem;
-  display:block;
+  display:inline-block;
 }
 
 .btn-recept{
