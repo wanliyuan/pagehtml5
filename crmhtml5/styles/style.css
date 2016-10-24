@@ -578,13 +578,161 @@
 }
 
 /*产品详情*/
-.product-detail-list{
+/*.product-detail-list.product-wrapper a{*/
+  /*background-size:1.25rem 1.25rem;*/
+/*}*/
+.icon-product-name{
+  background:url("../images/icon-product-name.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
+}
+.icon-product-code{
+  background:url("../images/icon-product-code.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
+}
+.icon-product-infor{
+  background:url("../images/icon-product-infor.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
+}
+.icon-product-img{
+  background:url("../images/icon-product-img.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
+}
+.icon-product-shop{
+  background:url("../images/icon-product-shop.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
+}
+.icon-product-size{
+   background:url("../images/icon-product-size.png") no-repeat 0 center;
+   background-size:1.25rem 1.25rem;
+ }
+.icon-product-price{
+  background:url("../images/icon-product-price.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
+}
+.icon-product-spec{
+  background:url("../images/icon-product-spec.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
+}
 
+/*/预约详细/*/
+.product-common a{
+  background-size:1.25rem 1.25rem;
+}
+.icon-appoint-person{
+  background:url("../images/icon-appoint-person.png") no-repeat 0 center;
+}
+.icon-appoint-phone{
+  background:url("../images/icon-appoint-phone.png") no-repeat 0 center;
+}
+.icon-appoint-time{
+  background:url("../images/icon-appoint-time.png") no-repeat 0 center;
+}
+.icon-appoint-status{
+  background:url("../images/icon-appoint-status.png") no-repeat 0 center;
+}
+.product-common a.icon-appoint-thing{
+  background:url("../images/icon-appoint-thing.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
+.product-common a.icon-appoint-place{
+  background:url("../images/icon-appoint-place.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
+.icon-appoint-flow{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-appoint-flow.png") no-repeat 0 center;
+}
+.icon-customer-view{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-customer-view.png") no-repeat 0 center;
+}
+.product-common a.icon-appoint-flow{
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+  background:url("../images/icon-appoint-flow.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+}
+.product-common a.icon-appoint-chat{
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+  background:url("../images/icon-appoint-chat.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+}
+.product-common a.icon-customer-view{
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+  background:url("../images/icon-customer-view.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+}
+.product-common a.icon-appoint-result{
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+  background:url("../images/icon-appoint-result.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
 }
 
 
-/*订单*/
-
+/*订单详细*/
+.icon-order-status{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-order-status.png") no-repeat 0 center;
+}
+.icon-total-price{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-total-price.png") no-repeat 0 center;
+}
+.icon-sale{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-sale.png") no-repeat 0 center;
+}
+.icon-discount{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-discount.png") no-repeat 0 center;
+}
+.icon-gift{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-gift.png") no-repeat 0 center;
+}
+.icon-outofpocket{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-outofpocket.png") no-repeat 0 center;
+}
+.icon-order-no{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-order-no.png") no-repeat 0 center;
+}
+.icon-pay-type{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-pay-type.png") no-repeat 0 center;
+}
+.icon-pay-time{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-pay-time.png") no-repeat 0 center;
+}
+.icon-flow-cart{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-flow-cart.png") no-repeat 0 center;
+}
+.icon-deliver-no{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-deliver-no.png") no-repeat 0 center;
+}
+.icon-deliver-time{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-deliver-time.png") no-repeat 0 center;
+}
+.icon-appoint-phone{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-appoint-phone.png") no-repeat 0 center;
+}
+.icon-deliver-place{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-deliver-place.png") no-repeat 0 center;
+}
+.icon-remind-thing{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-remind-thing.png") no-repeat 0 center;
+}
+.icon-history-chat{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-history-chat.png") no-repeat 0 center;
+}
+.icon-customer-view{
+  background-size:1.25rem 1.25rem;
+  background:url("../images/icon-customer-view.png") no-repeat 0 center;
+}
 
 /*客户*/
 .customer-task .task img{
