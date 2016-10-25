@@ -383,7 +383,7 @@
   overflow:hidden;
 }
 .form-group .control-label{
-  width:27%;
+  width:20%;
   float: left;
   height: 2.25rem;
   line-height: 2.25rem;
@@ -391,12 +391,18 @@
   color: #7c7c7c;
   font-size:.65rem;
 }
+.form-group .control-label.line-wrap{
+  height:inherit;
+  line-height:1rem;
+  padding:.5rem auto;
+}
 .form-group input.form-control,.form-group button.form-control{
   height: 2.25rem;
   border:none;
   color: #3e3a39;
   outline:none;
   font-size:.7rem;
+  font-family:"Microsoft YaHei";
 }
 .form-control textarea{
   border:none;
@@ -405,6 +411,7 @@
   padding:.3rem;
   resize:none;
   font-size:.7rem;
+  font-family:"Microsoft YaHei";
 }
 .form-group button.form-control{
   text-align:left;
@@ -413,7 +420,7 @@
 }
 
 .form-group .form-control{
-  width:70%;
+  width:77%;
   float: left;
   position: relative;
 }
@@ -428,6 +435,7 @@
   text-align:left;
   padding:.5rem;
   font-size:.7rem;
+  font-family:"Microsoft YaHei";
 }
 .input-person{
   background:url("../images/icon-person.png") no-repeat 95% center;
@@ -453,6 +461,7 @@
   border:none;
   outline:none;
   margin-top:.2rem;
+  font-family:"Microsoft YaHei";
 }
 .form-file p{
   margin-top:.2rem;
@@ -461,7 +470,8 @@
   font-size:.7rem;
   background:url("../images/icon-word.png") no-repeat 0 center;
   background-size:.85rem .9rem;
-  padding-left: 40px;
+  padding-left:1.1rem;
+  font-family:"Microsoft YaHei";
 }
 .form-control .input-map{
   width:75%;
@@ -470,6 +480,7 @@
   margin:.4rem 0;
   padding-left:5%;
   font-size:.8rem;
+  font-family:"Microsoft YaHei";
 }
 .form-map{
   background:url("../images/icon-map.png") no-repeat 95% center;
@@ -488,6 +499,7 @@
   background-size:auto 100%;
   font-size:.75rem;
   padding-left:.5rem;
+  font-family:"Microsoft YaHei";
 }
 .form-control .show-img,.form-control .upload-img{
   float:left;
@@ -520,6 +532,7 @@
   padding-left:13%;
   background:url("../images/icon-choose.png") no-repeat 0 center;
   background-size:1.175rem 1.175rem;
+  font-family:"Microsoft YaHei";
 }
 .choose.active{
   background:url("../images/icon-choose-active.png") no-repeat 0 center;
