@@ -385,8 +385,8 @@
 .form-group .control-label{
   width:18%;
   float: left;
-  height: 2.25rem;
-  line-height: 2.25rem;
+  height: 2rem;
+  line-height: 2rem;
   padding-left:3%;
   color: #7c7c7c;
   font-size:.6rem;
@@ -398,11 +398,12 @@
   padding:.5rem auto;
 }
 .form-group input.form-control{
-  width:68%;
+  width:65%;
+  margin-left:4%;
   padding-right:10%;
 }
 .form-group input.form-control,.form-group button.form-control{
-  height: 2.25rem;
+  height: 2rem;
   border:none;
   color: #3e3a39;
   outline:none;
@@ -425,7 +426,8 @@
 }
 
 .form-group .form-control{
-  width:77%;
+  width:73%;
+  margin-left:4%;
   float: left;
   position: relative;
 }
@@ -469,7 +471,7 @@
   font-family:"Microsoft YaHei";
 }
 .form-file span{
-  display:block;
+  display:inline-block;
   margin-top:.2rem;
   margin-bottom:.2rem;
   color: #5d5d5d;
@@ -820,3 +822,4 @@
   font-style: normal;
   margin-left:1rem;
 }
+
