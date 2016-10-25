@@ -389,13 +389,17 @@
   line-height: 2.25rem;
   padding-left:3%;
   color: #7c7c7c;
-  font-size:.65rem;
+  font-size:.7rem;
   font-family:"Microsoft YaHei";
 }
 .form-group .control-label.line-wrap{
   height:inherit;
   line-height:1rem;
   padding:.5rem auto;
+}
+.form-group input.form-control{
+  width:66%;
+  padding-right:10%;
 }
 .form-group input.form-control,.form-group button.form-control{
   height: 2.25rem;
@@ -426,7 +430,7 @@
   position: relative;
 }
 .form-group textarea.form-control{
-  margin:.85rem auto .85rem 0;
+  margin:.15rem auto .15rem 0;
   width:63%;
   float:left;
   height:3rem;
