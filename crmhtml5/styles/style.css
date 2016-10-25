@@ -385,8 +385,8 @@
 .form-group .control-label{
   width:18%;
   float: left;
-  height: 2rem;
-  line-height: 2rem;
+  height: 1.8rem;
+  line-height:1.8rem;
   padding-left:3%;
   color: #7c7c7c;
   font-size:.6rem;
@@ -403,7 +403,7 @@
   padding-right:10%;
 }
 .form-group input.form-control,.form-group button.form-control{
-  height: 2rem;
+  height: 1.8rem;
   border:none;
   color: #3e3a39;
   outline:none;
@@ -414,9 +414,9 @@
   border:none;
   width:90%;
   margin:.15rem auto .15rem 0;
-  padding:.3rem;
+  padding:.3rem 0;
   resize:none;
-  font-size:.7rem;
+  font-size:.6rem;
   font-family:"Microsoft YaHei";
 }
 .form-group button.form-control{
@@ -433,7 +433,7 @@
 }
 .form-group textarea.form-control{
   margin:.15rem auto .15rem 0;
-  width:61%;
+  width:57%;
   float:left;
   height:3rem;
   border: 1px solid #c1c1c1;
@@ -442,6 +442,7 @@
   text-align:left;
   padding:.5rem;
   font-size:.6rem;
+  margin-left:4%;
   font-family:"Microsoft YaHei";
 }
 .input-person{
