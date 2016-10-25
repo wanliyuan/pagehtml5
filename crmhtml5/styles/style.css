@@ -604,6 +604,13 @@
   background:url("../images/icon-product-name.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
 }
+.product-order .icon-product-name{
+  background:url("../images/icon-product-name.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
+.product-order.product a span{
+  margin-right:10%;
+}
 .icon-product-code{
   background:url("../images/icon-product-code.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
@@ -689,6 +696,10 @@
   background:url("../images/icon-order-status.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
 }
+.product-order .icon-total-price{
+  background:url("../images/icon-total-price.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
 .icon-total-price{
   background:url("../images/icon-total-price.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
@@ -697,13 +708,25 @@
   background:url("../images/icon-sale.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
 }
+.product-order .icon-sale{
+  background:url("../images/icon-sale.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
 .icon-discount{
   background:url("../images/icon-discount.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
 }
+.product-order .icon-discount{
+  background:url("../images/icon-discount.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
 .icon-gift{
   background:url("../images/icon-gift.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
+}
+.product-order .icon-gift{
+  background:url("../images/icon-gift.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .icon-outofpocket{
   background:url("../images/icon-outofpocket.png") no-repeat 0 center;
@@ -741,9 +764,29 @@
   background:url("../images/icon-deliver-place.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
 }
+.product-order .icon-deliver-place{
+  background:url("../images/icon-deliver-place.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
 .icon-remind-thing{
   background:url("../images/icon-remind-thing.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
+}
+.product-order .icon-remind-thing{
+  background:url("../images/icon-remind-thing.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
+.product-order .icon-appoint-flow{
+  background:url("../images/icon-appoint-flow.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
+.product-order .icon-history-chat{
+  background:url("../images/icon-history-chat.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
+.product-order .icon-customer-view{
+  background:url("../images/icon-customer-view.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .icon-history-chat{
   background:url("../images/icon-history-chat.png") no-repeat 0 center;
