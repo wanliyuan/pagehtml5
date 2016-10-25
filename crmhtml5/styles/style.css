@@ -390,6 +390,7 @@
   padding-left:3%;
   color: #7c7c7c;
   font-size:.65rem;
+  font-family:"Microsoft YaHei";
 }
 .form-group .control-label.line-wrap{
   height:inherit;
@@ -472,6 +473,7 @@
   background-size:.85rem .9rem;
   padding-left:1.1rem;
   font-family:"Microsoft YaHei";
+  line-height:1.1rem;
 }
 .form-control .input-map{
   width:75%;
