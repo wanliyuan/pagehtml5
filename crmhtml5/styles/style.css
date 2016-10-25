@@ -639,6 +639,7 @@
 }
 .icon-appoint-person{
   background:url("../images/icon-appoint-person.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-appoint-phone{
   background:url("../images/icon-appoint-phone.png") no-repeat 0 center;
@@ -658,99 +659,99 @@
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .icon-appoint-flow{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-appoint-flow.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-customer-view{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-customer-view.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .product-common a.icon-appoint-flow{
-  background-size:1.25rem 1.25rem,.4rem .65rem;
   background:url("../images/icon-appoint-flow.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .product-common a.icon-appoint-chat{
-  background-size:1.25rem 1.25rem,.4rem .65rem;
   background:url("../images/icon-appoint-chat.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .product-common a.icon-customer-view{
-  background-size:1.25rem 1.25rem,.4rem .65rem;
   background:url("../images/icon-customer-view.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .product-common a.icon-appoint-result{
-  background-size:1.25rem 1.25rem,.4rem .65rem;
   background:url("../images/icon-appoint-result.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 
 
 /*订单详细*/
 .icon-order-status{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-order-status.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-total-price{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-total-price.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-sale{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-sale.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-discount{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-discount.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-gift{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-gift.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-outofpocket{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-outofpocket.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-order-no{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-order-no.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-pay-type{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-pay-type.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-pay-time{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-pay-time.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-flow-cart{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-flow-cart.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-deliver-no{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-deliver-no.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-deliver-time{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-deliver-time.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-appoint-phone{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-appoint-phone.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-deliver-place{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-deliver-place.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-remind-thing{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-remind-thing.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-history-chat{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-history-chat.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 .icon-customer-view{
-  background-size:1.25rem 1.25rem;
   background:url("../images/icon-customer-view.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
 }
 
 /*客户*/
