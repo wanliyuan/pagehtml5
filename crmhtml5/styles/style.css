@@ -444,8 +444,8 @@
   width:55%;
   float:left;
   height:3rem;
-  border: 1px solid #c1c1c1;
-  background-color:#f0f0f0;
+  border: 1px solid #22c064;
+  background-color:#fff;
   line-height:1rem;
   text-align:left;
   padding:.5rem;
@@ -493,7 +493,7 @@
 }
 .form-control .input-map{
   width:79%;
-  border:1px solid #cccccc;
+  border:1px solid #22c064;
   height:1.3rem;
   margin:.4rem 0;
   padding-left:5%;
@@ -523,13 +523,13 @@
   float:left;
   margin-right:.3rem;
 }
-.show-img>div{
+.show-img{
   margin-top:.2rem;
   width:1.8rem;
   height:1.8rem;
-  border:1px solid #c3c3c3;
+  border:1px solid #22c064;
 }
-.upload-img>div{
+.upload-img{
   width:1.8rem;
   height:1.8rem;
   border:1px solid #c3c3c3;
@@ -540,7 +540,7 @@
 }
 .form-group-photos .form-control>div{
   text-align:center;
-  padding-bottom:.3rem;
+  margin-bottom:.3rem;
 }
 .form-group-photos p{
   margin-top:.1rem;
