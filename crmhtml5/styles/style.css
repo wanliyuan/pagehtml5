@@ -204,6 +204,14 @@
   background:url("../images/icon-color.png") no-repeat 0 center;
   background-size:1.125rem .725rem;
 }
+.product a.icon-phone2{
+  background:url("../images/icon-phone2.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
+.product a.icon-message{
+  background:url("../images/icon-message.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
+  background-size:1.25rem 1.25rem,.4rem .65rem;
+}
 .product a span{
   float: right;
   margin-right:5%;
@@ -433,7 +441,7 @@
 }
 .form-group textarea.form-control{
   margin:.15rem auto .15rem 0;
-  width:57%;
+  width:55%;
   float:left;
   height:3rem;
   border: 1px solid #c1c1c1;
@@ -462,7 +470,7 @@
   /*top:0;*/
   text-align:left;
   width:100%;
-  font-size:.7rem;
+  font-size:.6rem;
   color: #3e3a39;
   background:url("../images/icon-file.png") no-repeat 95% center;
   background-size:.925rem .925rem;
@@ -484,12 +492,12 @@
   line-height:1.1rem;
 }
 .form-control .input-map{
-  width:75%;
+  width:79%;
   border:1px solid #cccccc;
   height:1.3rem;
   margin:.4rem 0;
   padding-left:5%;
-  font-size:.7rem;
+  font-size:.6rem;
   font-family:"Microsoft YaHei";
 }
 .form-map{
@@ -497,7 +505,7 @@
   background-size:.875rem .875rem;
 }
 .form-control select{
-  width:80%;
+  width:85%;
   height:1.1rem;
   margin:.5rem 0;
   border: solid 1px #22c064;
@@ -535,8 +543,9 @@
   padding-bottom:.3rem;
 }
 .form-group-photos p{
-  font-size:.5rem;
-  color: #666;
+  font-size:.6rem;
+  margin-top:.5rem;
+  margin-bottom:.2rem;
 }
 .input-video{
   background:url("../images/icon-upload-video.png") no-repeat 95% center;
@@ -618,7 +627,7 @@
   background-size:1.25rem 1.25rem;
 }
 .product-order .icon-product-name{
-  background:url("../images/icon-product-name.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-product-name.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .product-order.product a span{
@@ -710,7 +719,7 @@
   background-size:1.25rem 1.25rem;
 }
 .product-order .icon-total-price{
-  background:url("../images/icon-total-price.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-total-price.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .icon-total-price{
@@ -722,7 +731,7 @@
   background-size:1.25rem 1.25rem;
 }
 .product-order .icon-sale{
-  background:url("../images/icon-sale.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-sale.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .icon-discount{
@@ -730,7 +739,7 @@
   background-size:1.25rem 1.25rem;
 }
 .product-order .icon-discount{
-  background:url("../images/icon-discount.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-discount.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .icon-gift{
@@ -738,7 +747,7 @@
   background-size:1.25rem 1.25rem;
 }
 .product-order .icon-gift{
-  background:url("../images/icon-gift.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-gift.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .icon-outofpocket{
@@ -773,12 +782,16 @@
   background:url("../images/icon-appoint-phone.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
 }
+.icon-appoint-phone2{
+  background:url("../images/icon-appoint-phone2.png") no-repeat 0 center;
+  background-size:1.25rem 1.25rem;
+}
 .icon-deliver-place{
   background:url("../images/icon-deliver-place.png") no-repeat 0 center;
   background-size:1.25rem 1.25rem;
 }
 .product-order .icon-deliver-place{
-  background:url("../images/icon-deliver-place.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-deliver-place.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .icon-remind-thing{
@@ -786,19 +799,19 @@
   background-size:1.25rem 1.25rem;
 }
 .product-order .icon-remind-thing{
-  background:url("../images/icon-remind-thing.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-remind-thing.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .product-order .icon-appoint-flow{
-  background:url("../images/icon-appoint-flow.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-appoint-flow.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .product-order .icon-history-chat{
-  background:url("../images/icon-history-chat.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-history-chat.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .product-order .icon-customer-view{
-  background:url("../images/icon-customer-view.png") no-repeat 0 center,url("../images/list-arrow.png") no-repeat 95% center;
+  background:url("../images/icon-customer-view.png") no-repeat 0 center,url("../images/list-arrow2.png") no-repeat 95% center;
   background-size:1.25rem 1.25rem,.4rem .65rem;
 }
 .icon-history-chat{
