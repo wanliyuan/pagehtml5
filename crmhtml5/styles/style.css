@@ -543,9 +543,12 @@
   padding-bottom:.3rem;
 }
 .form-group-photos p{
-  font-size:.6rem;
-  margin-top:.5rem;
+  margin-top:.1rem;
   margin-bottom:.2rem;
+}
+.form-group-photos p span{
+  display:inline-block;
+  font-size:.6rem;
 }
 .input-video{
   background:url("../images/icon-upload-video.png") no-repeat 95% center;
