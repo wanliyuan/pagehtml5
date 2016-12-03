@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            margin:0;
+            padding:0;
+        }
+        .form-horizontal{
+            width: 590px;
+            line-height:20px;
+            margin-left:10px;
+        }
+        .form-horizontal .form-group{
+            margin:10px 0;
+            overflow: hidden;
+        }
+        .form-horizontal .control-label{
+            float: left;
+        }
+        .form-horizontal .form-control{
+            float: left;
+        }
+        .form-horizontal .form-control textarea{
+            width:98%;
+            outline:none;
+            resize:none;
+        }
+        .form-horizontal .col-sm-3{
+            width:20%;
+            float: left;
+        }
+        .form-horizontal .col-sm-9{
+            width:75%;
+            float: left;
+            overflow: hidden;
+            padding-right:4%;
+            padding-left:1%;
+        }
+        .form-horizontal .col-sm-9 .form-control{
+            width:90%;
+            background-color:#ffffff;
+            background-image:none;
+            -webkit-border-radius:5px;
+            -moz-border-radius:5px;
+            border-radius:5px;
+            padding:6px 12px;
+            font-size:14px;
+            border:1px solid #ccc;
+            outline:none;
+            height:24px;
+            color: #333;
+        }
+        .form-horizontal .col-sm-9 textarea.form-control{
+            height:auto;
+            resize: none;
+        }
+        .form-horizontal .col-sm-9 select.form-control{
+            width:95.5%;
+            height:36px;
+        }
+        .form-horizontal .col-sm-9 img.form-control{
+            height:auto;
+            border:none;
+            padding:0;
+            border-radius:0;
+            width:95.5%;
+        }
+        .form-horizontal .radio,.form-horizontal .checkbox{
+            min-height:27px;
+            /*padding-top:7px;*/
+            margin-top:0;
+            margin-bottom:0;
+        }
+        .radio,.checkbox{
+            position: relative;
+            display: block;
+        }
+        .radio label, .checkbox label{
+            min-height:20px;
+            padding-left:20px;
+            margin-bottom:0;
+            font-weight:400;
+            cursor: pointer;
+        }
+        .form-horizontal label{
+            display:inline-block;
+            max-width:100%;
+        }
+        .radio input[type=radio], .checkbox input[type=checkbox]{
+            position: absolute;
+            margin-top:4px \9;
+            margin-left:-20px;
+        }
+        .form-horizontal .col-sm-9.checkbox-list>.form-control{
+            cursor: pointer;
+            background:url("images/icon-arrow.png") no-repeat 97% center;
+            background-size:12px 8px;
+        }
+        .form-horizontal .col-sm-9.images-list,.form-horizontal .col-sm-9.date-list{
+            background:url("images/icon-date.png") no-repeat right top;
+            background-size:36px 32px;
+        }
+        .form-horizontal .col-sm-9.images-list img{
+            width:31%;
+            margin-right:1%;
+            float: left;
+            margin-bottom:10px;
+        }
+        .form-horizontal .files-list{
+            background:url("images/icon-file.png") no-repeat right top;
+            background-size:37px 37px;
+        }
+        .form-horizontal .files-list p{
+            background:url("images/icon-word.png") no-repeat left center;
+            padding-left:40px;
+            background-size:34px 36px;
+            margin:5px 0;
+            min-height:25px;
+        }
+        .checkbox-list>div{
+            float: left;
+            border:1px solid #ccc;
+            border-top:none;
+            width:93.2%;
+            border-radius:5px;
+            border-top-left-radius:0;
+            border-top-right-radius:0;
+            padding-left:2%;
+            padding-top:10px;
+            padding-bottom:10px;
+            position: relative;
+            top: -5px;
+            z-index:2;
+            background-color:#ffffff;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <form class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-sm-3">文本标签</label>
+        <div class="col-sm-9">
+            多行文本，定宽，可能有多行，多行情况下定义好行距多行文本，定宽，可能有多行，多行情况下定义好行距
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">多行输入框</label>
+        <div class="col-sm-9">
+            <textarea rows="4" class="form-control" ></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">单行输入框</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" value="P-offline-201610140820-004">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">下拉框</label>
+        <div class="col-sm-9">
+            <select class="form-control">
+                <option>选项一</option>
+                <option>选项二</option>
+                <option>选项三</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">单选框</label>
+        <div class="col-sm-9">
+            <div class="radio">
+                <label>
+                    <input type="radio"  name="option">选项一
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio"  name="option">选项二
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio"  name="option">选项三
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">复选框</label>
+        <div class="col-sm-9">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">选项一
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">选项二
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">选项三
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label  col-sm-3">下拉复选框</label>
+        <div class="col-sm-9 checkbox-list">
+            <input type="text" class="form-control" readonly="readonly" class="" onclick="toggleChkboxList(this)">
+            <div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">选项一
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">选项二
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">选项三
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">单张图片</label>
+        <div class="col-sm-9">
+            <img src="images/example.jpg" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">附件</label>
+        <div class="col-sm-9 files-list">
+            <p>修改文档1</p>
+            <p>修改文档2</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">多张图片</label>
+        <div class="col-sm-9 images-list">
+            <img src="images/example.jpg">
+            <img src="images/example.jpg">
+            <img src="images/example.jpg">
+            <img src="images/example.jpg">
+            <img src="images/example.jpg">
+            <img src="images/example.jpg">
+            <img src="images/example.jpg">
+            <img src="images/example.jpg">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">时间</label>
+        <div class="col-sm-9 date-list">
+            <input type="text" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">标签名称</label>
+        <div class="col-sm-9 date-list">
+            <input type="text" class="form-control" readonly="readonly">
+        </div>
+    </div>
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">规定结束时间</label>-->
+        <!--<input type="text" class="form-control  input-date">-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">说明</label>-->
+        <!--<textarea class="form-control">晚安心语：天冷了，更要好好赚钱</textarea>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">附件</label>-->
+        <!--<div class="form-control form-file">-->
+            <!--&lt;!&ndash;<input type="file">&ndash;&gt;-->
+            <!--<button>点击增加附件</button>-->
+            <!--<p>修改文档1</p>-->
+            <!--<p>修改文档2</p>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">适用商品</label>-->
+        <!--<button class="form-control">点击选择商品</button>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">活动地址</label>-->
+        <!--<div class="form-control form-map">-->
+            <!--<input type="text" class="input-map" value="北京">-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">预计客户人数</label>-->
+        <!--<input type="text" class="form-control" value="2321">-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">签到礼</label>-->
+        <!--<div class="form-control">-->
+            <!--<select>-->
+                <!--<option>小礼品</option>-->
+                <!--<option>小礼品</option>-->
+            <!--</select>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">抽奖</label>-->
+        <!--<div class="form-control form-lottery">-->
+            <!--<input type="radio" id="radio-1-1" name="radio-1-set" class="regular-radio" checked=""><label for="radio-1-1"></label><span>有</span>-->
+            <!--<input type="radio" id="radio-1-2" name="radio-1-set" class="regular-radio"><label for="radio-1-2"></label><span>无</span>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">上传照片</label>-->
+        <!--<div class="form-control">-->
+            <!--<div class="show-img"></div>-->
+            <!--<div class="upload-img"></div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">上传视频</label>-->
+        <!--<input type="text" class="form-control input-video">-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">选择</label>-->
+        <!--<div class="form-control">-->
+            <!--<p class="choose active">第一个</p>-->
+            <!--<p class="choose">第二个</p>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<button class="btn-submit">点击汇报</button>-->
+    <!--</div>-->
+</form>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script>
+    function toggleChkboxList(obj){
+         $(obj).siblings().toggle();
+    }
+</script>
+</div>
+</body>
+</html>
