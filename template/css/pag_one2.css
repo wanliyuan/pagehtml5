@@ -1,0 +1,515 @@
+@charset "utf-8";
+
+body{
+	color:#666;
+	font-family: "微软雅黑";
+}
+.content_main{
+    width:90%;
+    margin:0 auto;
+}
+.con_bt{
+	text-align: center;
+	 padding-top:10%;
+     font-weight: 600;
+     margin:0 auto;
+     font-size:1.2rem;
+     color:#000;
+     border-bottom: #e5e5e5 1px solid;
+     padding-bottom:3%;
+}
+.time_dl dl dt{
+	font-family: "微软雅黑";
+	float:left;
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;
+}
+.time_dl dl dd{
+	float:right;
+	color:#0688b8;
+	font-family: "微软雅黑";
+	padding-top: 0.125rem
+	padding-bottom: 0.125rem
+}
+
+.bg_img img{
+	width:100%;
+	margin-top:0.25rem;
+}
+.bg_img p{
+	font-family: "微软雅黑";
+	text-align: center;
+	color:#333;
+	padding-top:1%;
+	font-weight: 580;
+}
+.wena{
+	padding-top:10%;
+	font-family: "微软雅黑";
+	color:#333;
+}
+.text_center{
+	text-align: center;
+    padding-top: 10%;
+    font-size: 20px;
+    color: #333;
+    border-bottom: #000 1px solid;
+    width: 60%;
+    margin: 0 auto;
+}
+.comment .pl_ent{
+    text-align: left;
+    border-bottom: #e5e5e5 1px solid;
+    padding-bottom: 2%;
+    font-family: "微软雅黑";
+    color:#333;
+    font-size: 0.4rem;
+    font-weight: 550;
+}
+.comment .con_two{
+	text-align: left;
+	font-family: "微软雅黑";
+	line-height: 1.75rem;
+	height:1.75rem;
+}
+.recommended{
+	overflow: hidden;
+}
+.recommended{
+	margin-top: 0.25rem;
+	padding-bottom: 0.45rem;
+	border-bottom: dotted 1px #000;
+	font-family: "微软雅黑";
+}
+.recommended dl dt{
+	width: 14%;
+	float: left;
+}
+.recommended dl dt img{
+	width: 3rem;
+	height: 3rem;
+	
+}
+.mt20s{
+	margin-top: 1.75rem
+}
+.recommended dl dd{
+	width: 85%;
+	float: left;
+	height: 3rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	word-break: break-all;
+	overflow: hidden;
+	font-family: "微软雅黑";
+}
+
+/* 晒单 */
+.the_sun{
+	margin-top: 5%;
+}
+.the_sun ul li{
+    width:25%;
+    float: left;
+}
+.jz_tp{
+	width: 200%;
+	min-height: 1.625rem;
+	max-height: 1.625rem;
+	text-align: center;
+	/* border-bottom: #000 1px solid; */
+}
+.table tr td img{
+	width: 100%;
+}
+.tables img{
+	width:100%;
+}	
+
+.img_p img{
+	width:100%;
+}
+.the_sun ul li img{
+	min-height: 1.625rem;
+	max-height: 1.625rem;
+}
+.mode_ing{
+	border-bottom: #666 1px solid;
+	padding-bottom: 0.6rem;
+
+}
+.hebin{
+	text-align: center;
+	font-weight: 600;
+	
+}
+.more_exciting{
+	width: 100%;
+}
+.more_excitinge{
+	overflow: hidden;
+}
+.jctj{
+	padding-bottom:2%;
+	border-bottom: #666 1px solid;
+	color:#333;
+	font-weight: 600;
+	padding-left:2%;
+	font-family: "微软雅黑";
+	font-size: 1.4rem;
+	padding-top:1%;
+}
+.jctjs{
+	border-bottom: #666 1px solid;
+	color:#333;
+	font-weight: 500;
+	padding-left:2%;
+	font-family: "微软雅黑";
+	font-size: 1.4rem;
+	padding-top:10%;
+	padding-bottom: 2%;
+}
+.more_exciting .the_suns{
+	font-size: 1.2rem;
+	font-family: "微软雅黑";
+	padding-left: 0.3rem;
+	padding-top: 2%;
+}
+.add_img ul li{
+}
+.pictur_img img{
+	padding-top: 6%;
+	width: 7.25rem;
+	height: 7.25rem;
+	margin:0 auto;
+	text-align: center;
+    display: block;
+}
+.pictur_img{
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+.pictur_img .ml_0{
+	width: 7.25rem;
+    height: 7.25rem;
+    border-radius: 6.25rem;
+    border: #666 1px solid;
+    padding: 0.55rem;
+}
+.pictur_img  ul li{
+	float: left;
+	margin:0 auto;
+	width: 50%;
+	text-align: content;
+}
+.the_subs{
+	color:#666;
+	font-family: "微软雅黑";
+	text-align: center;
+	padding-top: 2%;
+
+}
+.the_bt{
+	font-size: 1.15rem;
+    font-weight: 700;
+    color: #000;
+    margin-top: 8%;
+    text-align: center;
+}
+.share {
+	overflow: hidden;
+	width: 90%;
+	margin:0 auto;
+	text-align: content;
+	margin-top:1.8rem;
+}
+.share ul li{
+    float: left;
+    border: #c7c2c2 1px solid;
+    width: 32%;
+    text-align: center;
+}
+.share ul li img{
+	width:2.5rem;
+	hidden:2.5rem;
+}
+.share ul li .ziys{
+	padding-top: 0.6rem;
+    font-weight: 600;
+    display: in-block;
+    display: inline-block;
+    font-size: 1.0rem;
+    text-align: right;
+} 
+.comment_s{
+	float:right;
+    overflow: hidden;
+}
+.comment_s ul li{
+	float: left;
+}
+.comment_s  ul li img{
+	width: 2.0rem;
+    height: 2.0rem;
+
+}
+.show_sc{
+	width: 100%;
+    border-bottom: #dbdada 1px solid;
+    overflow: hidden;
+    padding-bottom: 2%;
+}
+.imput_p{
+	padding-left:2.6rem;
+	height: 1.75rem;
+	line-height: 1.75rem;
+	margin-top: 0.375rem;
+    width:15.0rem;
+    border: #e5e2e2 1px solid;
+}
+.logien{
+	 width: 50px;
+    /* padding: 3px; */
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    height: 25px;
+    background: #7e96b8;
+}
+.denglu_impor{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.denglu_impor .logien{
+	position: absolute;
+    left: 187px;
+    top: 28px;
+}
+/* 评论列表 */
+.comment_list .list_one dl dt{
+	float: left;
+	width: 15%;
+} 
+.comment_list .list_one dl dt img{
+	width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 3.25rem;
+}
+.comment_list .list_one dl dd{
+	float: right;
+	width: 78%;
+} 
+.comment_list .list_one dl dd .times{
+	text-align: right;
+    float: right;
+    color: #999;
+    font-family: "微软雅黑";
+}
+.comment_list .list_one dl dd .pl_name{
+	font-weight: 600;
+    font-size: 0.9rem;
+    color: #333;
+    font-family: "微软雅黑";
+    float: right;
+}
+.comment_list .list_one dl dd .pl_nr{
+	
+    font-size: 1.0rem;
+    color: #333;
+    font-family: "微软雅黑";
+}
+.comment_list{
+	margin-top: 10%;
+	overflow: hidden;
+
+}
+.comment_list ul li{
+	border-bottom: #666 1px dotted; 
+	overflow: hidden;
+	margin-top:0.5rem;
+}
+.pl_name{
+	float: right;
+}
+.pl_name ul li{
+	float: left;
+    margin-left: 4px;
+ }
+.pl_name .a_d_three{
+	width: 1.5rem;
+}
+.pl_name ul li .pl_sty{
+	line-height: 1.8rem;
+    font-size: 1.0rem;
+}
+.fl_left{
+	text-align: left;
+    float: left;
+    color: #bcbcbc;
+    padding-top: 3%;
+}
+.pl_name{
+	float: right;
+}
+.pl_name ul li{
+	border-bottom: #fff 1px solid;
+}
+.jcpl{
+	width: 90%;
+	text-align: left;
+	overflow: hidden;
+}
+.list_one{
+	border-style: #000 1px solid;
+}
+.cuo_pd {
+	width: 3.5rem !important;
+	height:3.5rem !important;
+	padding-top:-1.375rem !important;
+}
+.show_sc ul li{
+	float: left;
+}
+/* 上傳按鈕 */
+.icon_tx{
+	width: 2.6rem;
+    height: 2.6rem;
+    position: absolute;
+    left: 220%;
+    top: -206%;
+}
+
+ .upload-btn-box { 
+ 	clear: both;
+ 	border-radius:0.75rem;
+ 	width: 1.25rem;
+ 	height: 1.25rem;
+ 	color: #b9b9b9;
+ 	text-align: center; 
+ 	position: relative;
+ }
+.upload-btn-box .upload-btn {
+    opacity: 0;
+    position: absolute; 
+    width: 1.6rem;
+    height: 1.6rem; 
+    z-index: 1;
+    left: 136%;
+    top: -102%;
+ }
+.w_h{
+	width: 2.6rem;
+	height: 2.6rem;
+	padding-top: 2%;
+}
+.styls_left{
+	float:left;
+	width: 30%;
+	padding-top: 3%;
+} 
+.styls_right{
+	float: right;
+	width: 70%;
+	text-align: right;
+}
+.pl_stys{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+/* 填写区域 */
+.first_region p{
+	padding-top: 1.25rem;
+    font-size: 1.0rem;
+    font-family: "微软雅黑";
+    color: #000;
+    font-weight: 600;
+}
+.first_region .f_text{
+	font-family: "微软雅黑";
+	font-size: 0.85rem;
+	color: #666;
+	padding-top: 0.375rem;
+	overflow: hidden;
+}
+.f_text{
+	font-family: "微软雅黑";
+	font-weight: 600;
+}
+.f_text dl dt{
+    float: left;
+    
+}	
+.f_text dl dd{
+    float: right;
+    width: 50%;
+    border-bottom: #000 2px solid;
+    padding-bottom: 1.2rem;
+    text-align: right;
+}
+.f_text dl dd span{
+    color: #eb1212;
+    font-family: "微软雅黑";
+}
+.first_region .line_h{
+    width: 40%;
+    border-bottom: #000 2px solid;
+}
+.tables{
+	margin-top: 10%;
+}
+.bgtp img{
+	margin-top: 10%;
+	width: 100%;
+}
+.bgtp p{
+	text-align: center;
+	color:#666;
+	margin:0 auto;
+	font-family: "微软雅黑";
+	padding-top: 2%;
+}
+.line_bottom{
+	width:70%;
+	border-bottom: #000 2px solid;
+}
+.dic_border{
+	border-bottom: #666 1px solid;
+	width:96%;
+	margin:0 auto;
+	margin-top: 5%;
+}	
+.line-bus{
+	padding-top: 1.5%;
+}
+.comment_picture {
+	overflow: hidden;
+}
+.comment_picture ul li{
+	float: left;
+	margin-left: 2%;
+}
+.comment_reply {
+	overflow: hidden;
+    display: block;
+    width: 100%;
+    background: #e5e5e5;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+    padding-left: 0.45rem;
+    margin-bottom: 0.25rem;
+}
+.comment_reply .bt_name{
+	color:#045978;
+	font-weight: 600;
+}
